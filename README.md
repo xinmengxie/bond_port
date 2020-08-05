@@ -8,6 +8,11 @@ steps：
 2.	Forecasted the CPI in the next 5 years using SARIMA method to obtain the adjusted face value of TIPs bonds in each future period
 3.	Simulated the VaR and ES of the portfolio one day later with Bootstrap and Monte-Carlo simulation methods    
 
+CPI_U.csv, USTREASURY_YIELD.csv are the two data files for python code VAR_ES_python_code.py (including PCA, SARIMA, and Simulation for VaR and ES)
+
+Var and Es of Tips Portfolio.pdf is the project report
+
+
 # 债券组合风险管理 
 
 该项目是计算机仿真和风险评估（研究生阶段的一门课程）的期末项目。
@@ -16,5 +21,8 @@ steps：
 具体步骤：
 1. 运用主成分分析 (PCA)技术模拟一天之后的收益率曲线，并基于此计算对应的即期利率
 2. 利用SARIMA模型预测未来5年的CPI指数，从而得到TIPs债券未来每期的调整后的票面值
-3. 运用Bootstrap以及Monte-Carlo 模拟的方法模拟一天后债券的VaR以及ES
+3. 运用Bootstrap以及Monte-Carlo 模拟的方法估算一天后债券的VaR以及ES
 
+CPI_U.csv，USTREASURY_YIELD.csv是python代码VAR_ES_python_code.py的两个数据文件（包括PCA，SARIMA以及VaR和ES的模拟）
+
+项目报告请点击文件 Var and Es of Tips Portfolio.pdf
